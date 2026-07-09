@@ -65,7 +65,7 @@ function Layout() {
         </nav>
       </header>
       <main className="wrap">
-        <Routes>{routes}</Routes>
+        <Routes>{buildRoutes(user)}</Routes>
       </main>
       {toast && (
         <div className="toast" role="status">
@@ -842,67 +842,69 @@ function NotFound() {
     </div>
   );
 }
-const routes = (
-  <>
-    <Route path="/" element={<Landing />} />
-    <Route path="/login" element={<Auth mode="login" />} />
-    <Route path="/register" element={<Auth mode="register" />} />
-    <Route path="/books" element={<Catalog />} />
-    <Route path="/books/:id" element={<BookDetail />} />
-    <Route path="/community" element={<Community />} />
-    <Route
-      path="/dashboard"
-      element={
-        <Protect>
-          <Dashboard />
-        </Protect>
-      }
-    />
-    <Route
-      path="/profile"
-      element={
-        <Protect>
-          <Profile />
-        </Protect>
-      }
-    />
-    <Route
-      path="/books/new"
-      element={
-        <Protect>
-          <BookForm />
-        </Protect>
-      }
-    />
-    <Route
-      path="/books/:id/edit"
-      element={
-        <Protect>
-          <Owner>
-            <BookForm edit />
-          </Owner>
-        </Protect>
-      }
-    />
-    <Route
-      path="/requests"
-      element={
-        <Protect>
-          <Requests />
-        </Protect>
-      }
-    />
-    <Route
-      path="/requests/history"
-      element={
-        <Protect>
-          <Requests history />
-        </Protect>
-      }
-    />
-    <Route path="*" element={<NotFound />} />
-  </>
-);
+function buildRoutes(user) {
+  return (
+    <>
+      <Route path="/" element={<Landing />} />
+      <Route path="/login" element={<Auth mode="login" />} />
+      {!user && <Route path="/register" element={<Auth mode="register" />} />}
+      <Route path="/books" element={<Catalog />} />
+      <Route path="/books/:id" element={<BookDetail />} />
+      <Route path="/community" element={<Community />} />
+      <Route
+        path="/dashboard"
+        element={
+          <Protect>
+            <Dashboard />
+          </Protect>
+        }
+      />
+      <Route
+        path="/profile"
+        element={
+          <Protect>
+            <Profile />
+          </Protect>
+        }
+      />
+      <Route
+        path="/books/new"
+        element={
+          <Protect>
+            <BookForm />
+          </Protect>
+        }
+      />
+      <Route
+        path="/books/:id/edit"
+        element={
+          <Protect>
+            <Owner>
+              <BookForm edit />
+            </Owner>
+          </Protect>
+        }
+      />
+      <Route
+        path="/requests"
+        element={
+          <Protect>
+            <Requests />
+          </Protect>
+        }
+      />
+      <Route
+        path="/requests/history"
+        element={
+          <Protect>
+            <Requests history />
+          </Protect>
+        }
+      />
+      <Route path="*" element={<NotFound />} />
+    </>
+  );
+}
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <AppProvider>
