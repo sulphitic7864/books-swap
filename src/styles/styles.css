@@ -18,6 +18,7 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
+    cursor: context-menu;
     font-family: Inter, system-ui, Arial, sans-serif
 }
 
