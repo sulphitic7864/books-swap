@@ -1,0 +1,49 @@
+[
+  {
+    "id": "a1",
+    "type": "listing",
+    "userId": "u6",
+    "bookId": "b11",
+    "text": "Dev added The Library of Rain",
+    "occurredOn": "2026-06-17T10:15:00"
+  },
+  {
+    "id": "a2",
+    "type": "exchange",
+    "userId": "u1",
+    "bookId": "b5",
+    "text": "Maya received an accepted exchange request",
+    "occurredOn": "2026-06-11T14:30:00"
+  },
+  {
+    "id": "a3",
+    "type": "milestone",
+    "userId": "u3",
+    "text": "Nisha completed five community exchanges",
+    "occurredOn": "2026-06-10T09:00:00"
+  },
+  {
+    "id": "a4",
+    "type": "listing",
+    "userId": "u4",
+    "bookId": "b8",
+    "text": "Kabir added The Sunday Telescope",
+    "occurredOn": "2026-06-09T17:20:00"
+  },
+  {
+    "id": "a5",
+    "type": "exchange",
+    "userId": "u4",
+    "bookId": "b7",
+    "text": "Kabir completed an exchange for Notes from Blue Hill",
+    "occurredOn": "2026-05-28T12:45:00"
+  },
+  {
+    "id": "a6",
+    "type": "listing",
+    "userId": "u5",
+    "bookId": "b10",
+    "text": "Tara added Night Bus to Amber Bay",
+    "occurredOn": "2026-06-12T16:10:00"
+  }
+]

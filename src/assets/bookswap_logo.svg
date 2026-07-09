@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180">
+  <rect width="640" height="180" rx="24" fill="#F7F2E8"/>
+  <g transform="translate(38 30)">
+    <path d="M18 18 C50 4 78 8 104 28 L104 118 C76 98 48 96 18 110 Z" fill="#2D7C73"/>
+    <path d="M104 28 C132 8 160 4 192 18 L192 110 C162 96 134 98 104 118 Z" fill="#E0785A"/>
+    <path d="M104 28 L104 118" stroke="#FFFFFF" stroke-width="6"/>
+    <path d="M42 44 C62 37 80 39 94 49" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M114 49 C132 39 150 37 170 44" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M42 66 C62 59 80 61 94 71" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M114 71 C132 61 150 59 170 66" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="258" y="86" font-family="DejaVu Sans" font-size="54" font-weight="700" fill="#183B4E">BookSwap</text>
+  <text x="260" y="126" font-family="DejaVu Sans" font-size="23" fill="#66757B">Share a shelf. Start a story.</text>
+</svg>

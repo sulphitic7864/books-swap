@@ -1,0 +1,82 @@
+[
+  {
+    "id": "r1",
+    "bookId": "b2",
+    "requesterId": "u3",
+    "ownerId": "u1",
+    "status": "Accepted",
+    "createdOn": "2026-06-08",
+    "updatedOn": "2026-06-09",
+    "message": "I would enjoy reading this during the community mystery month."
+  },
+  {
+    "id": "r2",
+    "bookId": "b5",
+    "requesterId": "u1",
+    "ownerId": "u3",
+    "status": "Accepted",
+    "createdOn": "2026-06-10",
+    "updatedOn": "2026-06-11",
+    "message": "The map history theme fits our next discussion."
+  },
+  {
+    "id": "r3",
+    "bookId": "b3",
+    "requesterId": "u5",
+    "ownerId": "u2",
+    "status": "Pending",
+    "createdOn": "2026-06-18",
+    "updatedOn": "2026-06-18",
+    "message": "May I borrow this for a weekend reading group?"
+  },
+  {
+    "id": "r4",
+    "bookId": "b10",
+    "requesterId": "u1",
+    "ownerId": "u5",
+    "status": "Pending",
+    "createdOn": "2026-06-19",
+    "updatedOn": "2026-06-19",
+    "message": "I have been looking for a short travel mystery."
+  },
+  {
+    "id": "r5",
+    "bookId": "b8",
+    "requesterId": "u6",
+    "ownerId": "u4",
+    "status": "Rejected",
+    "createdOn": "2026-06-02",
+    "updatedOn": "2026-06-03",
+    "message": "This would be useful for a young readers session."
+  },
+  {
+    "id": "r6",
+    "bookId": "b4",
+    "requesterId": "u4",
+    "ownerId": "u2",
+    "status": "Cancelled",
+    "createdOn": "2026-06-01",
+    "updatedOn": "2026-06-02",
+    "message": "I would like to read this before the rainy season event."
+  },
+  {
+    "id": "r7",
+    "bookId": "b7",
+    "requesterId": "u3",
+    "ownerId": "u4",
+    "status": "Completed",
+    "createdOn": "2026-05-01",
+    "updatedOn": "2026-05-28",
+    "message": "The biography theme is perfect for our club notes."
+  },
+  {
+    "id": "r8",
+    "bookId": "b9",
+    "requesterId": "u2",
+    "ownerId": "u5",
+    "status": "Completed",
+    "createdOn": "2026-04-10",
+    "updatedOn": "2026-04-30",
+    "message": "I would like to use this for a local history session."
+  }
+]

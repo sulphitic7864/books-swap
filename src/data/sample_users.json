@@ -1,0 +1,56 @@
+[
+  {
+    "id": "u1",
+    "name": "Maya Verma",
+    "email": "maya@demo.local",
+    "password": "ReadMore8",
+    "neighborhood": "Green Park",
+    "bio": "Weekend reader and collector of travel writing.",
+    "avatar": "avatar_maya.png"
+  },
+  {
+    "id": "u2",
+    "name": "Arjun Mehta",
+    "email": "arjun@demo.local",
+    "password": "ShelfLife7",
+    "neighborhood": "Lake View",
+    "bio": "Science reader and community event volunteer.",
+    "avatar": "avatar_arjun.png"
+  },
+  {
+    "id": "u3",
+    "name": "Nisha Rao",
+    "email": "nisha@demo.local",
+    "password": "BookTrail9",
+    "neighborhood": "Old Market",
+    "bio": "History enthusiast and book discussion host.",
+    "avatar": "avatar_nisha.png"
+  },
+  {
+    "id": "u4",
+    "name": "Kabir Singh",
+    "email": "kabir@demo.local",
+    "password": "PagesOpen6",
+    "neighborhood": "North Avenue",
+    "bio": "Parent, telescope hobbyist, and children’s book collector.",
+    "avatar": "avatar_kabir.png"
+  },
+  {
+    "id": "u5",
+    "name": "Tara Iyer",
+    "email": "tara@demo.local",
+    "password": "QuietRead5",
+    "neighborhood": "River Walk",
+    "bio": "Mystery reader who enjoys neighborhood exchanges.",
+    "avatar": "avatar_tara.png"
+  },
+  {
+    "id": "u6",
+    "name": "Dev Shah",
+    "email": "dev@demo.local",
+    "password": "StoryStack4",
+    "neighborhood": "Maple Cross",
+    "bio": "Design student interested in illustrated books.",
+    "avatar": "avatar_dev.png"
+  }
+]
